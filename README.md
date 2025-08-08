@@ -16,7 +16,6 @@ This project requires Python and several dependencies including `uv`, `Claude`, 
 2. **uv**  
    Install `uv` by following the instructions here:  
    [Installation | uv](https://github.com/your-uv-link)  
-   *(Replace this link with the actual URL to the uv installation guide.)*
 
 3. **Claude**  
    Download and install Claude from the official source.  
@@ -31,10 +30,10 @@ For more information and detailed setup steps, visit the [mcp PyPI page.](https:
 ## Running the Server
 
 After installing all prerequisites, you can install and run the server with Claude Desktop:
-uv run mcp install server.py
+   uv run mcp install server.py
 
 To start the development server, run:
-uv run mcp dev server.py
+   uv run mcp dev server.py
 
 Notes
 Ensure all environment variables are properly set, especially Python in your PATH.
